@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='django-ctemplate',
-    version='2',
+    version='2.0.1',
     packages=(
         'ctemplate',
     ),
