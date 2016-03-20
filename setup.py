@@ -10,4 +10,8 @@ setup(
     author="Chris Lamb",
     author_email="chris@chris-lamb.co.uk",
     description="Compile Django templates to C",
+
+    install_requires=(
+        'Django>=1.8',
+    ),
 )
