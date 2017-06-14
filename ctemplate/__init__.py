@@ -18,7 +18,7 @@ below and rerun __main__.
 
 Speedups of at least 5X-10X should be expected, assuming you do not have any
 uncompiled template nodes. In contrast, Jinja2 claims a 2X speed increase,
-although I am grossly misrepresentating their project here.
+although I am grossly misrepresenting their project here.
 
 Performance comparisons are rather biased towards Django - in a typical Django
 project the Template object is constructed on *each* render, degrading the
